@@ -3,6 +3,7 @@ from sqlalchemy.sql import func
 from .database import Base
 
 class Post(Base):
+    """Model class for interactions with Postgres via SQLAlchemy"""
     __tablename__ = "posts"
 
     id = Column(Integer, primary_key=True, index=True)
