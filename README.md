@@ -63,9 +63,3 @@ Query Params:
 query: The search query string.
 skip (optional): The starting index for pagination (default is 0).
 limit (optional): The number of posts to return (default is 10).
-
-### Clone the Repository
-
-```sh
-git clone https://github.com/yourusername/blog-api.git
-cd blog-api
